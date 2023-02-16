@@ -57,5 +57,6 @@ export class Awsec3ExpressDockerStack extends cdk.Stack {
     new cdk.CfnOutput(this, "ExternalDNS", {
       value: externalLB.loadBalancerDnsName,
     });
+    
   }
 }
